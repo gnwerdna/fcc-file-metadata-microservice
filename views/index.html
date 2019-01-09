@@ -26,23 +26,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="text-center">
+    <header class="text-center my-5">
       <h1>
         File metadata microservice project
       </h1>
     </header>
 
     <main>
-      <header class="text-center mt-5">
-        <h2>
-          Please upload a file
-        </h2>
-      </header>
       
-      <div class="border container justify-co">
+      <div class="border container d-flex justify-content-center py-5" style="width: 50%">
         <form method="POST" action="upload" enctype="multipart/form-data">
-          <input name="file" type="file" class="form-group">
-          <input type="submit" class="btn btn-success">
+          <input name="file" type="file" class="form-control-file">
+          <br>
+          <input type="submit" class="btn btn-success" value="Upload">
         </form>  
       </div>
       
@@ -52,8 +48,8 @@
       </section>
     </main>
 
-    <footer>
-      Made with <a href="https://glitch.com">Glitch</a>!
+    <footer class="text-center">
+      Made with <a href="https://glitch.com">Glitch</a> and made by D D Nguyen!
     </footer>
 
     <!-- include the Glitch button to show what the webpage is about and

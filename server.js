@@ -4,7 +4,7 @@
 // init project
 const express = require('express');
 const app = express();
-
+const multer = require('multer');
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
